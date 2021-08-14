@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class projeto_Matriz{
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		
+		double[] nota = new double[3];	
+		double resultado;
+	
+	for ( int contador = 1; contador < 3; contador++) {
+		
+		System.out.println("digite a nota " +contador+ " de 3\n");
+		nota[contador] = teclado.nextDouble();
+			
+		}
+	
+	resultado=(nota[1] + nota[2] + nota[3])/3;
+	
+	System.out.println("a media é "+ resultado);
+
+		
+		teclado.close();	
+		}
+	
+		
+		
+	}
+		
+		
+	
+		
+		

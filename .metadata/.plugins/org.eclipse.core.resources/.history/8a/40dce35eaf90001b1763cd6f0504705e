@@ -1,0 +1,23 @@
+package estudoJava;
+
+public class Cesar {
+
+	public static void main(String[] args) {
+
+		System.out.println("Ingrese una cadena: ");
+        String palabra = leer.next();
+        String acumulador = "";
+        for (int i = 0; i < palabra.length(); i++) {
+            char caracter = palabra.charAt(i);
+         
+            int conversion = (int) caracter + 3;
+            int conve = conversion;
+            char conver = (char) conve;
+            acumulador += conver;
+
+        }// una forma que a mi me funciono
+		
+
+	}
+
+}

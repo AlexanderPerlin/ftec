@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class matrizNotasTurma{
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		double[] nota = new double[3];	
+		int [] aluno = new int[3];
+		double media;
+		
+	for(int contador_aluno = 0; contador_aluno < aluno.length; contador_aluno++) {	
+		System.out.println(" Digite o codigo do aluno\n ");
+		aluno[contador_aluno] = teclado.nextInt(); 
+	
+		
+		System.out.println(aluno);
+		
+			for ( int contador_nota = 0; contador_nota < nota.length; contador_nota++) {
+				System.out.println(" digite a nota\n ");
+				nota[contador_nota] = teclado.nextDouble();
+		
+		}	
+			resultado = (nota[0] + nota[1] + nota[2])/3;
+			System.out.printf("a media de "+ aluno[contador_aluno] + " é "+ resultado + "\n");
+			
+	}
+	
+	}
+	
+	
+	public static void calculaMedia(media) {
+		
+		resultado = (nota[0] + nota[1] + nota[2])/3;
+	}
+		
+}
+	
+		
+		

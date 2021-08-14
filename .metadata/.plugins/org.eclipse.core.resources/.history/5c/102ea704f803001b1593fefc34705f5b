@@ -1,0 +1,21 @@
+public class projetoFor{
+public static void main (String[] args) {
+	
+	int multi;
+	int cont = 0;
+	
+	for(int i = 1; i < 10; i++ ) {
+	cont++;
+multi = i*	cont;
+	
+
+System.out.println (multi);
+	
+	
+	
+	
+	
+	}
+	
+}
+}

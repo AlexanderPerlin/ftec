@@ -1,0 +1,22 @@
+public class Main {
+    
+	
+	public static void main(String args[]) {
+		int counter = 0, i, k;
+		
+		for ( i = 1; i <= 100; i++) {
+            
+		
+            
+			for ( k = 1; k <= i; k++) {
+               
+				
+				if (i % k == 0) ++counter;
+            
+			}
+            if (counter == 2) {
+                System.out.println(i);
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+import java.util.Scanner;
+import java.util.Arrays;
+public class notasMatriz{
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		double[] nota = new double[3];	
+		String [] aluno = new String[3];
+		double resultado;
+		
+		
+	for(int contador_aluno = 0; contador_aluno < aluno.length; contador_aluno++) {	
+		System.out.println(" Digite o nome do aluno\n ");
+		  aluno[contador_aluno] = teclado.nextLine(); 
+		  
+		  
+		  System.out.println(Arrays.toString(aluno));
+		 
+	
+		
+			for ( int contador_nota = 0; contador_nota < nota.length; contador_nota++) {
+				System.out.println(" digite a nota\n ");
+				nota[contador_nota] = teclado.nextDouble();
+		
+		}	
+			resultado = (nota[0] + nota[1] + nota[2])/3;
+		//	System.out.printf("a media de "+ aluno[contador_aluno] + " é "+ resultado + "\n");
+			
+	}
+	
+	}
+		
+}
+	
+		
+		

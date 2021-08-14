@@ -1,0 +1,28 @@
+
+public class projeto_Matriz {
+
+	private static int varArrays[];
+
+	public static void main(String[] args) {
+
+//int[] varArray = new int [5];
+
+
+varArrays = new int[] {3,5,8,9,6,1};
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

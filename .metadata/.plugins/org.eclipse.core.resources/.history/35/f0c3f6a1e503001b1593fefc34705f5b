@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class arrayNotasMedia {
+
+	public static void main(String[] args) {
+
+		double notas [];
+
+Scanner teclado = new Scanner(System.in);
+
+
+
+
+
+
+
+
+teclado.close();
+
+	}
+
+}

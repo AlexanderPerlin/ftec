@@ -1,0 +1,33 @@
+// Exibir lista de numeros primos até o limite definido pelo usuario
+
+package estudoJava;
+import java.util.Scanner;
+
+public class primoLista {
+
+	public static void main(String[] args) {
+		var sc = new Scanner(System.in);
+		
+		int limite, teste;
+	//	int contador = 0;
+		
+		System.out.println("digite o limite");
+		limite = sc.nextInt();
+		sc.close();
+		
+		for(int i=1; i<=limite; i++) {
+			teste = limite;
+			teste --;		
+			
+			if(teste %i==0) {
+			//	contador++;
+				System.out.println(i);
+			}
+			
+		}
+		
+
+
+	}
+
+}

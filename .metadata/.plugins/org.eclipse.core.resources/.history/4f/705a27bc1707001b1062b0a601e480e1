@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class termosUso {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Digite S para Sim\n       N para Não");
+		String opcao = teclado.nextLine(); 
+		validaResposta(opcao);
+		
+teclado.close();
+}
+	
+	public static void validaResposta(String opcao) {
+		if("S".equals(opcao)){
+			System.out.println("instalação cancelada !!!");
+	}
+		else System.out.println("Continuando a instalação !!!" );
+			}
+}

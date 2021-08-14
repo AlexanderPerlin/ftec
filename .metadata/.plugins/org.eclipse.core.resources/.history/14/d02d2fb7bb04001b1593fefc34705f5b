@@ -1,0 +1,16 @@
+public class projeto_Matriz{
+	public static void main(String[] args) {
+		
+	int vetor[] = new int[5];
+	
+	int vetor[] = {2,5,8,7,4,6};
+		
+		
+		
+		
+		
+		
+	
+		
+	}	
+}

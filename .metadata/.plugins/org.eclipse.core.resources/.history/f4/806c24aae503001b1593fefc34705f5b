@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class arrayNotasMedia {
+
+	public static void main(String[] args) {
+
+		double notas [];
+
+Scanner teclado = new Scanner(System.in);
+
+Sistem.out.println("digite a primeira nota");
+nota = teclado.nextDouble();
+
+
+
+
+
+
+teclado.close();
+
+	}
+
+}

@@ -1,0 +1,18 @@
+// Estrutura condicional composta if e else
+
+package estudoJava;
+public class Estrutura_IfElse {
+
+	public static void main(String[] args) {
+		
+		int x = 5;
+		
+		if (x>10) {
+			System.out.println("teste");
+		}
+		else {
+			System.out.println("teste 02");
+	}
+		}
+
+}

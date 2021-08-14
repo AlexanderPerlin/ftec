@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class termosUso {
+
+	public static void main(String[] args) {
+		String opcao;
+		Scanner teclado = new Scanner(System.in);
+		
+
+		System.out.println("Digite S para Sim, N para Não");
+		String opcao = teclado.next(); 
+		
+		if(opcao != "S") {
+		
+			
+
+	}
+
+}
+}

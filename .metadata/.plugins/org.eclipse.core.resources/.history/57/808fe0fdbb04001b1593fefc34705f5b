@@ -1,0 +1,17 @@
+public class projeto_Matriz{
+	public static void main(String[] args) {
+		
+	int matriz[] = new int[5];
+	for (int linha = 0; i < 5; i++) {
+	
+		matriz[linha] = linha;
+		
+		Sistem.out.println(matriz[linha]);
+		
+	}
+		
+		
+	
+		
+	}	
+}

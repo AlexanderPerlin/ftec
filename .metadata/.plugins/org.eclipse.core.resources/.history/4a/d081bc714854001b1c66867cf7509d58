@@ -1,0 +1,33 @@
+// Exibir lista de numeros primos até o test definido pelo usuario
+
+package estudoJava;
+import java.util.Scanner;
+
+public class primoLista {
+
+	public static void main(String[] args) {
+		var sc = new Scanner(System.in);
+		
+		int test;
+		int contador = 0;
+		
+		System.out.println("digite o test");
+		test = sc.nextInt();
+		sc.close();
+		
+	for() {
+		
+		for(int i=1; i<=test; i++) {
+			if(test %i==0) {
+				contador++;				
+			}							
+		}
+			if(contador == 2) {
+			System.out.println("primo");
+					
+		}
+	}
+		
+	}
+
+}

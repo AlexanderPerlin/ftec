@@ -1,0 +1,35 @@
+
+/*
+ 4. Um motorista deseja colocar no tanque um valor X em reais de gasolina.
+ Desenvolva um software em Java para ler o preço do litro da gasolina e o valor
+ que o motorista irá pagar, calcule e mostre na tela quantos litros ele conseguirá
+ colocar no tanque.
+ */
+package estudoJava;
+
+/**
+ *
+ * @author alexander perlin
+ */
+import java.util.Scanner;
+
+public class ConsumoGasolina {
+
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+        float valor_01, valor_02, resultado;
+
+        System.out.println("Informe o preço do litro da gasolina");
+        valor_01 = teclado.nextFloat();
+
+        System.out.println("Informe quanto dinheiro será utilizado");
+        valor_02 = teclado.nextFloat();
+
+        resultado = valor_02 / valor_01;
+
+        System.out.println("Quantidade de gasolina será " + resultado + " litros");
+
+    }
+}
+
